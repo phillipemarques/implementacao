@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+          <!-- XML Schema Generated from XML Document on Mon Dec 14 2015 16:12:20 GMT-0200 (BRST) -->
+          <!-- with XmlGrid.net Free Online Service http://xmlgrid.net -->
+       <xs:element name="ontology">
+              <xs:complexType>
+                     <xs:sequence>
+                            <xs:element name="workflows">
+                                   <xs:complexType>
+                                          <xs:sequence>
+                                                 <xs:element name="workflow" maxOccurs="unbounded">
+                                                        <xs:complexType>
+                                                               <xs:sequence>
+                                                                      <xs:element name="workflowIdMyExperiment" type="xs:string"></xs:element>
+                                                                      <xs:element name="workflowTitle" type="xs:string"></xs:element>
+                                                                      <xs:element name="workflowDescription" type="xs:string"></xs:element>
+                                                                      <xs:element name="workflowType" type="xs:string"></xs:element>
+                                                                      <xs:element name="workflowUploaderMyExperiment" type="xs:string"></xs:element>
+                                                                      <xs:element name="workflowCreatedAt" type="xs:string"></xs:element>
+                                                                      <xs:element name="workflowUpdatedAt" type="xs:string"></xs:element>
+                                                                      <xs:element name="workflowPreviewUrlMyExperiment" type="xs:string"></xs:element>
+                                                                      <xs:element name="workflowThumbnailUrlMyExperiment" type="xs:string"></xs:element>
+                                                                      <xs:element name="workflowThumbnailBigUrlMyExperiment" type="xs:string"></xs:element>
+                                                                      <xs:element name="workflowSvgUrlMyExperiment" type="xs:string"></xs:element>
+                                                                      <xs:element name="workflowLicenseType" type="xs:string"></xs:element>
+                                                                      <xs:element name="workflowContentUriUrlMyExperiment" type="xs:string"></xs:element>
+                                                                      <xs:element name="workflowContentType" type="xs:string"></xs:element>
+                                                                  </xs:sequence>
+                                                           </xs:complexType>
+                                                    </xs:element>
+                                             </xs:sequence>
+                                      </xs:complexType>
+                               </xs:element>
+                            <xs:element name="files">
+                                   <xs:complexType>
+                                          <xs:sequence>
+                                                 <xs:element name="file" maxOccurs="unbounded">
+                                                        <xs:complexType>
+                                                               <xs:sequence>
+                                                                      <xs:element name="fileIdMyExperiment" type="xs:string"></xs:element>
+                                                                      <xs:element name="fileName" type="xs:string"></xs:element>
+                                                                      <xs:element name="fileTitle" type="xs:string"></xs:element>
+                                                                      <xs:element name="fileType" type="xs:string"></xs:element>
+                                                                      <xs:element name="fileUploaderMyExperiment" type="xs:string"></xs:element>
+                                                                      <xs:element name="fileContentType" type="xs:string"></xs:element>
+                                                                      <xs:element name="fileCreatedAtMyExperiment" type="xs:string"></xs:element>
+                                                                      <xs:element name="fileUpdatedAtMyExperiment" type="xs:string"></xs:element>
+                                                                  </xs:sequence>
+                                                           </xs:complexType>
+                                                    </xs:element>
+                                             </xs:sequence>
+                                      </xs:complexType>
+                               </xs:element>
+                            <xs:element name="packs">
+                                   <xs:complexType>
+                                          <xs:sequence>
+                                                 <xs:element name="pack" maxOccurs="unbounded">
+                                                        <xs:complexType>
+                                                               <xs:sequence>
+                                                                      <xs:element name="packIdMyExperiment" type="xs:string"></xs:element>
+                                                                      <xs:element name="packTitle" type="xs:string"></xs:element>
+                                                                  </xs:sequence>
+                                                           </xs:complexType>
+                                                    </xs:element>
+                                             </xs:sequence>
+                                      </xs:complexType>
+                               </xs:element>
+                        </xs:sequence>
+                     <xs:attribute name="repositoryName" type="xs:string"></xs:attribute>
+                 </xs:complexType>
+          </xs:element>
+   </xs:schema>
