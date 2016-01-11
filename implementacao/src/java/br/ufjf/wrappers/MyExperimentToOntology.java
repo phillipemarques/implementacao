@@ -140,7 +140,9 @@ public class MyExperimentToOntology {
         marshaller.setProperty(javax.xml.bind.Marshaller.JAXB_FORMATTED_OUTPUT, true);
         marshaller.marshal(ontology, writer);
         String strTemp = writer.toString();
-
+        strTemp = strTemp.replaceAll("<","&lt;");
+        strTemp = strTemp.replaceAll(">","&gt;");
+        
         //write to file
 //        try (FileWriter arq = new FileWriter("/home/phillipe/workflow.xml")) {
 //            PrintWriter gravarArq = new PrintWriter(arq);

@@ -21,11 +21,9 @@
         <jsp:include page="top_bar.jsp"/>
         <jsp:include page="search_bar.jsp"/>
         <div class="content">
-            <code>
-                <pre>
+            <pre>
                     ${requestScope.search}
-                </pre>    
-            </code>
+            </pre>
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script src="./resources/bootstrap/js/bootstrap.min.js"></script>
