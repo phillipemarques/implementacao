@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xml:base="http://localhost:8084/OntologiaTenisFinal/webresources/_Service.owl#"
+  xmlns:owl="http://jamsci.servehttp.com/owlsedit/owl.rdf#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://jamsci.servehttp.com/owlsedit/rdf-schema.rdf#" xmlns:service="http://staff.um.edu.mt/cabe2/supervising/undergraduate/owlseditFYP/owls11/Service.owl#">
+  <owl:Ontology rdf:about="">
+    <owl:versionInfo>Version 1.0</owl:versionInfo>
+    <rdfs:comment>Ontologia Tenis</rdfs:comment>
+    <owl:imports rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns"/>
+    <owl:imports rdf:resource="http://jamsci.servehttp.com/owlsedit/owl.rdf"/>
+    <owl:imports rdf:resource="http://jamsci.servehttp.com/owlsedit/rdf-schema.rdf"/>
+    <owl:imports rdf:resource="http://staff.um.edu.mt/cabe2/supervising/undergraduate/owlseditFYP/owls11/Service.owl"/>
+  </owl:Ontology>
+  <service:Service rdf:ID="_Service">
+    <service:presents rdf:resource="http://localhost:8084/OntologiaTenisFinal/webresources/_Profile#_Profile"/>
+    <service:describedBy rdf:resource="http://localhost:8084/OntologiaTenisFinal/webresources/_ProcessModel#_ProcessModel"/>
+    <service:supports rdf:resource="http://localhost:8084/OntologiaTenisFinal/webresources/_Grounding#_Grounding"/>
+  </service:Service>
+</rdf:RDF>
